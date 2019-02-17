@@ -1,5 +1,9 @@
-# PoC Polymer Dynamics
+# PoC RNN Polymer Dynamics
 Matt Hagy, matthew.hagy@gmail.com
+
+Initial proof-of-concept studying machine learning
+[RNNs](https://en.wikipedia.org/wiki/Recurrent_neural_network)
+using concepts from [polymer dynamics theory](https://en.wikipedia.org/wiki/Polymer_physics).
 
 See the notebook `poc_rnn_polymer.ipynb` for this initial work.
 
