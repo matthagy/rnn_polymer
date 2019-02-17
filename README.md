@@ -1,5 +1,5 @@
 # PoC Polymer Dynamics
-Matthew Hagy, matthew.hagy@gmail.com, Februrary 16, 2019
+Matt Hagy, matthew.hagy@gmail.com
 
 See the notebook `poc_rnn_polymer.ipynb` for this initial work.
 
