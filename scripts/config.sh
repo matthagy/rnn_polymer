@@ -9,7 +9,7 @@ else
 fi
 
 # You need to update this every time you re-launch the VM
-VM_DNS=ec2-54-187-91-34.us-west-2.compute.amazonaws.com
+VM_DNS=ec2-54-200-109-202.us-west-2.compute.amazonaws.com
 echo "using VM $VM_DNS"
 
 # Define this once since we use it multiple times in ssh/scp scripts
@@ -17,6 +17,6 @@ SSH_HOST="ubuntu@$VM_DNS"
 SCP_DIR="$SSH_HOST:~/rnn_polymer"
 
 # This is the default port for Jupyter notebook. You can change it if you want
-# but you'll need to specify the port when you launch the Jupyter nobteook
+# but you'll need to specify the port when you launch the Jupyter notebook
 # on the VM (within a screen session) using `jupyter notebook --port=XXXX`
 JUPYTER_PORT=8888
