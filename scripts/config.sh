@@ -9,7 +9,7 @@ else
 fi
 
 # You need to update this every time you re-launch the VM
-VM_DNS=ec2-54-200-109-202.us-west-2.compute.amazonaws.com
+VM_DNS=ec2-18-237-105-34.us-west-2.compute.amazonaws.com
 echo "using VM $VM_DNS"
 
 # Define this once since we use it multiple times in ssh/scp scripts
