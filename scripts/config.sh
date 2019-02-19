@@ -9,8 +9,14 @@ else
 fi
 
 # You need to update this every time you re-launch the VM
-VM_DNS=ec2-18-237-105-34.us-west-2.compute.amazonaws.com
-echo "using VM $VM_DNS"
+if [ -z "VM_DNS" ]; then 
+	echo "error: enviromental variable VM_DNS isn't set";
+	echo "you can find the VM DNS address from the AWS EC2 web app as `Public DNS`"
+	echo "the hostname should end with a suffic like `.compute.amazonaws.com`"
+	exit 1
+else
+	echo "using VM_DNS $VM_DNS";
+fi
 
 # Define this once since we use it multiple times in ssh/scp scripts
 SSH_HOST="ubuntu@$VM_DNS"
